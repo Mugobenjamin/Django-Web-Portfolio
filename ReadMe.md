@@ -32,7 +32,7 @@ This project is a personal portfolio website built using the Django framework. I
 #### Prerequisites
 - Python 3.x installed on your system
 - Django installed (`pip install django`)
-- A text editor or IDE (e.g., VSCode, PyCharm)
+- A text editor or IDE (e.g., VSCode, Kate)
 
 #### Steps
 1. Clone the repository:
@@ -48,6 +48,7 @@ This project is a personal portfolio website built using the Django framework. I
 
 3. Run the Django migrations:
    ```bash
+   python manage.py makemigrations
    python manage.py migrate
    ```
 
